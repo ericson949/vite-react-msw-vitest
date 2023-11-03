@@ -12,7 +12,7 @@ Currently, two official plugins are available:
 ## Installation and launch
 ```
 yarn
-yarn vitest //for launch test
+yarn test //for launch test
 yarn run dev // for run app
 ```   
 
