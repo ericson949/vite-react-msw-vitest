@@ -3,7 +3,7 @@ import {render,screen, waitFor} from "@testing-library/react";
 import ListUserContainer from "../ui/ListUserContainer.tsx";
 
 
-describe("",()=>{
+describe("test",()=>{
     const consoleMock = vi.spyOn(console, 'log').mockImplementation(() => undefined);
 
     afterAll(() => {
