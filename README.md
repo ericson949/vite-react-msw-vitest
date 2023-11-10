@@ -14,6 +14,7 @@ Currently, two official plugins are available:
 yarn
 yarn test //for launch test
 yarn run dev // for run app
+yarn run e2e // for launch e2e test
 ```   
 
 ## Expanding the ESLint configuration

@@ -10,12 +10,9 @@ describe("test",()=>{
         consoleMock.mockReset();
     });
     it('receives a mocked response to a REST API request', async () => {
-        // expect(1+1).toBe(2
+        expect(1+1).toBe(2)
 
         render(<ListUserContainer />)
-        // await waitForElementToBeRemoved(() =>
-        //     screen.queryByLabelText('loading')
-        // );
         await waitFor(()=>{
             expect(screen.getByTestId('user-name').textContent).toEqual("John Maverick")
         })

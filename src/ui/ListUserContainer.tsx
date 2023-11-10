@@ -11,7 +11,7 @@ const ListUserContainer = () => {
             then(data=> {
                 setUser(data.name)
             }).catch(err=>{
-                console.log("ert859", err)
+                console.log(err)
             })
         }
         loadingData()
